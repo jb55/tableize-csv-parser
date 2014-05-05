@@ -1,0 +1,22 @@
+{
+  "name": "tableize-csv-parser",
+  "description": "csv parser for jb55/json2csv generated csvs",
+  "keywords": ["tableize", "json2csv"],
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jb55/tableize-csv-parser.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony --reporter spec"
+  },
+  "dependencies": {
+    "dot-lens": "^1.2.2"
+  },
+  "devDependencies": {
+    "csv-record-parser": "0.0.4",
+    "expect.js": "*",
+    "mocha": "*"
+  }
+}
