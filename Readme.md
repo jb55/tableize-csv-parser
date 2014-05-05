@@ -5,6 +5,8 @@
   [tableize-array](https://github.com/jb55/tableize-array) records. Records of
   these kind can be generated from [jb55/json2csv](https://github.com/jb55/json2csv)
 
+  [![Build Status](https://travis-ci.org/jb55/tableize-csv-parser.svg)](https://travis-ci.org/jb55/tableize-csv-parser)
+
 ## Installation
 
   Install with npm
@@ -14,7 +16,7 @@
 ## Example
 
 ```js
-var parser = require('csv-record-parser-stream')
+var record = require('csv-record-parser-stream')
 var csv = require('csv-parse')
 var tableParser = require('tableize-csv-parser');
 var through = require('through');
